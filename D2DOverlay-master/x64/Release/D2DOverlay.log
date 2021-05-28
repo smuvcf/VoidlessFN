@@ -1,0 +1,8 @@
+﻿  Source.cpp
+C:\Users\Temal\Desktop\addgui\void\fortnite-cheat-source-public-master\D2DOverlay-master\Source.cpp(45,139): warning C4267: 'argument': conversion from 'size_t' to 'UINT32', possible loss of data
+C:\Users\Temal\Desktop\addgui\void\fortnite-cheat-source-public-master\D2DOverlay-master\Source.cpp(48,44): warning C4838: conversion from 'unsigned __int64' to 'UINT32' requires a narrowing conversion
+C:\Users\Temal\Desktop\addgui\void\fortnite-cheat-source-public-master\D2DOverlay-master\Source.cpp(48,47): warning C4267: 'initializing': conversion from 'size_t' to 'UINT32', possible loss of data
+C:\Users\Temal\Desktop\addgui\void\fortnite-cheat-source-public-master\D2DOverlay-master\Source.cpp(146,17): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\Temal\Desktop\addgui\void\fortnite-cheat-source-public-master\D2DOverlay-master\Source.cpp(149,51): warning C4244: 'argument': conversion from 'UINT32' to 'float', possible loss of data
+C:\Users\Temal\Desktop\addgui\void\fortnite-cheat-source-public-master\D2DOverlay-master\Source.cpp(153,19): warning C4244: 'initializing': conversion from 'time_t' to 'int', possible loss of data
+  D2DOverlay.vcxproj -> C:\Users\Temal\Desktop\addgui\void\fortnite-cheat-source-public-master\D2DOverlay-master\x64\Release\D2DOverlay.lib
