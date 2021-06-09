@@ -10,7 +10,7 @@
 
 #define M_PI 3.14159265358979323846264338327950288419716939937510
 
-#define OFFSET_UWORLD 0x9645CC0
+#define OFFSET_UWORLD 0x985C970
 
 using namespace std;
 
@@ -166,7 +166,7 @@ void menu()
 {
 	if (Menu)
 	{
-		DrawBox(20, 300, 370, 246, 0.0f, 0.f, 0.f, 0.f, 80, true);                                  //zweites wo oben anf‰ngt // dritte breite //viertens nach unten
+		DrawBox(20, 300, 370, 246, 0.0f, 0.f, 0.f, 0.f, 80, true);                                  //zweites wo oben anf√§ngt // dritte breite //viertens nach unten
 		//DrawString(_xor_("VoidlessCheatz").c_str(), 17, 10, 8, 255.f, 255.f, 255.f, 255.f);
 		//DrawString(_xor_("dsc.gg/Voidless").c_str(), 60, 1487, 8, 255.f, 255.f, 255.f, 255.f);
 		//DrawString(_xor_("dsc.gg/Voidless").c_str(), 60, 1486, 8, 255.f, 255.f, 255.f, 255.f);
@@ -176,7 +176,7 @@ void menu()
 		//DrawString(_xor_("dsc gg/Voidless").c_str(), 60, 1482, 8, 255.f, 255.f, 255.f, 255.f);
 		//DrawString(_xor_("dsc gg/Voidless").c_str(), 60, 1481, 8, 255.f, 255.f, 255.f, 255.f);
 		//DrawString(_xor_("dsc gg/Voidless").c_str(), 60, 1480, 8, 255.f, 255.f, 255.f, 255.f);
-		//DrawString(_xor_("OG").c_str(), 43, 28, 300, 255.f, 151.f, 255.f, 1.f);          //erste grˆﬂe //zweite rechts //dritte tiefe 
+		//DrawString(_xor_("OG").c_str(), 43, 28, 300, 255.f, 151.f, 255.f, 1.f);          //erste gr√∂√üe //zweite rechts //dritte tiefe 
 		DrawString(_xor_("VoidlessFN").c_str(), 43, 28, 300, 60.f, 120.f, 0.f, 110.f);
 		DrawString(_xor_("---------------------------------------------").c_str(), 20, 28, 335, 25, 56, 255, 255);
 		DrawString(_xor_("dsc.gg/Voidless").c_str(), 16, 274, 329, 255.f, 255.f, 255.f, 255.f);
@@ -186,28 +186,28 @@ void menu()
 		else
 			DrawString(_xor_("OFF").c_str(), 15, 10 + 110, 10 + 430, 255.f, 0.f, 0.f, 255.f);
 
-		DrawString(_xor_("EnemyText =").c_str(), 14, 28, 440, 105.f, 255.f, 255.f, 255.f); //erste grˆﬂe //zweite rechts //dritte tiefe 
+		DrawString(_xor_("EnemyText =").c_str(), 14, 28, 440, 105.f, 255.f, 255.f, 255.f); //erste gr√∂√üe //zweite rechts //dritte tiefe 
 
 		if (BoxESP)
 			DrawString(_xor_("ON").c_str(), 15, 10 + 110, 10 + 450, 0.f, 255.f, 0.f, 255.f);
 		else
 			DrawString(_xor_("OFF").c_str(), 15, 10 + 110, 10 + 450, 255.f, 0.f, 0.f, 255.f);
 
-		DrawString(_xor_("CornerBox =").c_str(), 14, 28, 460, 105.f, 255.f, 255.f, 255.f); //erste grˆﬂe //zweite rechts //dritte tiefe 
+		DrawString(_xor_("CornerBox =").c_str(), 14, 28, 460, 105.f, 255.f, 255.f, 255.f); //erste gr√∂√üe //zweite rechts //dritte tiefe 
 
 		if (LineESP)
 			DrawString(_xor_("ON").c_str(), 15, 10 + 110, 10 + 470, 0.f, 255.f, 0.f, 255.f);
 		else
 			DrawString(_xor_("OFF").c_str(), 15, 10 + 110, 10 + 470, 255.f, 0.f, 0.f, 255.f);
 
-		DrawString(_xor_("TrackLines =").c_str(), 14, 28, 480, 105.f, 255.f, 255.f, 255.f); //erste grˆﬂe //zweite rechts //dritte tiefe 
+		DrawString(_xor_("TrackLines =").c_str(), 14, 28, 480, 105.f, 255.f, 255.f, 255.f); //erste gr√∂√üe //zweite rechts //dritte tiefe 
 
 		if (DistanceESP)
 			DrawString(_xor_("ON").c_str(), 15, 10 + 110, 10 + 490, 0.f, 255.f, 0.f, 255.f);
 		else
 			DrawString(_xor_("OFF").c_str(), 15, 10 + 110, 10 + 490, 255.f, 0.f, 0.f, 255.f);
 
-		DrawString(_xor_("Distance   =").c_str(), 14, 28, 500, 105.f, 255.f, 255.f, 255.f); //erste grˆﬂe //zweite rechts //dritte tiefe 
+		DrawString(_xor_("Distance   =").c_str(), 14, 28, 500, 105.f, 255.f, 255.f, 255.f); //erste gr√∂√üe //zweite rechts //dritte tiefe 
 
 		if (skeleton)
 			DrawString(_xor_("ON").c_str(), 15, 10 + 110, 10 + 510, 0.f, 255.f, 0.f, 255.f);
@@ -221,8 +221,8 @@ void menu()
 		else
 			DrawString(_xor_("OFF").c_str(), 21, 10 + 124, 10 + 355, 255.f, 0.f, 0.f, 255.f); 
 
-		DrawString(_xor_("Aimbot =").c_str(), 23, 28, 363, 255.f, 255.f, 255.f, 255.f);          //erste grˆﬂe //zweite rechts //dritte tiefe 
-		DrawString(_xor_("[F1]").c_str(), 20, 180, 365, 255.f, 255.f, 255.f, 255.f);     //erste grˆﬂe //zweite rechts //dritte tiefe 
+		DrawString(_xor_("Aimbot =").c_str(), 23, 28, 363, 255.f, 255.f, 255.f, 255.f);          //erste gr√∂√üe //zweite rechts //dritte tiefe 
+		DrawString(_xor_("[F1]").c_str(), 20, 180, 365, 255.f, 255.f, 255.f, 255.f);     //erste gr√∂√üe //zweite rechts //dritte tiefe 
 		DrawString(_xor_("[F2]").c_str(), 14, 154, 440, 255.f, 255.f, 255.f, 255.f);
 		DrawString(_xor_("[F3]").c_str(), 14, 154, 461, 255.f, 255.f, 255.f, 255.f);
 		DrawString(_xor_("[F4]").c_str(), 14, 154, 480, 255.f, 255.f, 255.f, 255.f);
